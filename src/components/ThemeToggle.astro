@@ -9,18 +9,14 @@ const THEMES = ["Light", "Dark", "System"];
 <div class="relative mx-1 my-auto">
   <button
     id="theme-toggle-btn"
-    class="appearance-none border-none flex hover:scale-125 transition text-gray-900 dark:text-gray-50"
+    class="appearance-none border-none flex hover:bg-red-500 hover:text-gray-50 transition text-gray-900 dark:text-gray-50 items-center p-2 w-20 h-10 rounded-lg"
+    type="button"
   >
     <span class="sr-only">Elige el tema</span>
-    <SunIcon id="light" class="theme-toggle-icon size-7 transition-all" />
-    <MoonIcon
-      id="dark"
-      class="theme-toggle-icon absolute size-7 transition-all"
-    />
-    <SystemIcon
-      id="system"
-      class="theme-toggle-icon absolute size-7 transition-all"
-    />
+    <SunIcon id="light" class="theme-toggle-icon size-5" />
+    <MoonIcon id="dark" class="theme-toggle-icon absolute size-5" />
+    <SystemIcon id="system" class="theme-toggle-icon absolute size-5" />
+    <label class="pl-1 hover:cursor-pointer">Color</label>
   </button>
   <div
     id="themes-menu"
