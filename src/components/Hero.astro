@@ -1,0 +1,42 @@
+---
+import WhatsApp from "./icons/WhatsApp.astro";
+---
+
+<div
+  class="flex items-center md:flex-row mx-auto w-full justify-between flex-col-reverse"
+>
+  <div
+    class="flex flex-col md:justify-between leading-normal max-w-[650px] md:mr-10"
+  >
+    <h1
+      class="mb-5 font-black md:text-6xl xl:text-[62pt] text-[34pt] text-center md:text-left"
+    >
+      <span class="block text-red-500">ENERGÍAS</span>
+      <span class="block text-yellow-400">DIGITAL SPA.</span>
+    </h1>
+    <p
+      class="text-pretty mb-3 font-normal text-gray-700 dark:text-gray-300 md:text-[18pt] text-[14pt] text-center md:text-left"
+    >
+      Tenemos una amplia instalación de servicios, nuestra misión es ofrecer
+      solución e innovación efectiva para Seguridad Electronica, Corrientes
+      débiles y Telecomunicaciones.
+    </p>
+
+    <a
+      href="https://api.whatsapp.com/send?phone=+56951105106&text=Hola!%20%C2%BFQue%20tal?%20He%20visto%20su%20p%C3%A1gina%20web%20y%20me%20gustar%C3%ADa%20consultar%20sobre%20uno%20de%20sus%20servicios."
+      target="_blank"
+      type="button"
+      class="mt-14 px-5 mx-auto md:mx-0 py-2.5 text-[14pt] md:text-[16pt] font-medium text-gray-950 inline-flex items-center justify-center bg-yellow-300 hover:bg-yellow-200 shadow-xl focus:ring-4 focus:outline-none focus:ring-yellow-400 rounded-lg w-56 transition-all"
+    >
+      <WhatsApp class="size-6 md:size-7 me-2" />
+      Contactar
+    </a>
+  </div>
+  <img
+    src="/icono-energias-digital.svg"
+    class="md:max-w-[300px] max-w-[200px] md:mb-0 mb-10"
+    alt="Imagen que muestra el logo de Energías Digital SPA."
+    title="Logo Energías Digital SPA."
+    aria-label="Ir a la página principal"
+  />
+</div>

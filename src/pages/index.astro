@@ -1,5 +1,6 @@
 ---
 import Carousel from "../components/Carousel.astro";
+import Hero from "../components/Hero.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
@@ -8,32 +9,15 @@ import Layout from "../layouts/Layout.astro";
   description="Instalación de telecomunicaciones, Corrientes débiles y seguridad electronica para grandes empresas, pequeñas empresas y particulares."
 >
   <Carousel />
-  <main>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
+  <main class="">
+    <div
+      class="z-[-2] min-h-screen w-full bg-gray-100 dark:bg-gray-950
+      dark:bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(251,191,36,0.20),rgba(255,255,255,0))]
+      bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(239,68,68,0.20),rgba(255,255,255,0))]"
+    >
+      <div class="max-w-screen-lg mx-auto p-4 py-24">
+        <Hero />
+      </div>
+    </div>
   </main>
 </Layout>
